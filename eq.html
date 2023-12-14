@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.eq()-특정 요소의 순서값 가져올때 사용</title>
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script>
+        $(function(){
+            // 두번째 li인 먹물리조또 빨강으로 색 변경
+            $("li").eq(1).css("color", "red")
+        });
+    </script>
+</head>
+<body>
+    <!-- ul>li*3 -->
+    <ul>
+        <li>로제파스타</li> <!-- 0 -->
+        <li>먹물리조또</li> <!-- 1 -->
+        <li>중국호떡</li> <!-- 2 -->
+    </ul>
+</body>
+</html>
